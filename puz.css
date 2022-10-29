@@ -1,0 +1,54 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body {
+   background: linear-gradient(to left, #555, #333, #000);
+}
+p {
+   font-size: 2rem;
+   font-weight: bold;
+   color: #fff;
+   margin: 0 250px;
+   padding-top: 15px;
+}
+.board {
+   display: inline-flex;
+   flex-wrap: wrap;
+   gap: 1px;
+   padding: 5px;
+   margin: 20px;
+   width: 520px;
+   background-color: #aaa;
+}
+.board > div {
+   width: 50px;
+   height: 50px;
+}
+.board > div > img {
+   width: 100%;
+   height: 100%;
+}
+.pieces {
+   position: absolute;
+   top: 0;
+   display: inline-flex;
+   flex-wrap: wrap;
+   gap: 1px;
+   padding: 5px;
+   width: 417px;
+   background-color: #000;
+}
+.pieces > div {
+   width: 50px;
+   height: 50px;
+}
+.pieces > div > img {
+   width: 100%;
+   height: 100%;
+}
+article {
+   color: #fff;
+   margin-left: 20px;
+}
